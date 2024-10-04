@@ -5,6 +5,10 @@
 body{
     background-color: blanchedalmond;
 }
+.back{
+    text-decoration: none;
+    /* to remove underline from heref link use none in text decoration  */
+}
 #odd{
     color:blue;
 }
@@ -12,17 +16,68 @@ body{
 #even{
     color:green;
 }
-.abc{
+.abcd{
     text-align:center;
-    text-decoration:dotted;
+    text-decoration: overline;
 }
-#dis{
+#que{
     background-color: rgb(125, 151, 255);
 }
-.ligma{
+.button{
     background-color: greenyellow;
 }
 /* you can seperate multiple call references via comma  */
-.trash{
-    text-align:end;
+.trashtext{
+    color:black;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    /* here fonts are applied sequential if it is not available it shifts to next */
+    /* this is known as fall back mechanism */
+    line-height:normal;
+    /* how much height an individual line lin is taking is called line height */
+    text-transform:capitalize;
+
+}
+.headin{
+    color: black;
+    background-color:rgb(140, 139, 139);
+    text-decoration: white line-through;
+    
+}
+#bold{
+    color:black;
+    font-weight:100;
+    /* range is from 100 to 900 */
+}
+p,h2{
+    color:black;
+}
+#p1{
+    font-size:25px;
+}
+#p2{
+    font-size:15px;
+}
+#p3{
+    font-size:5px;
+}
+.practiceset2{
+    font-size:25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#q1andq2{
+    font-size:medium;
+    text-transform:uppercase;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
 }
