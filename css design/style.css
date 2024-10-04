@@ -1,0 +1,20 @@
+/*css is read line by line so what is at the end is of higher priority*/
+*{
+    color:#333335
+}
+/* * is universal selector it applies to all*/
+/*how this feature can be overridden*/
+/*below tou can see examples*/
+h1{
+    color:rgb(168, 219, 50);
+}
+p{
+    color:rgb(70, 97, 20)
+}
+button{
+    color:rgb(0, 0, 0);
+    background-color: hotpink;
+}
+body{
+    background-color:#1d9b7c;
+}

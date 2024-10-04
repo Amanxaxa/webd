@@ -1,0 +1,28 @@
+/* properties are overlapped and finalized via parent child hierarcy  */
+*{
+    color:#ff00f2
+}
+body{
+    background-color: blanchedalmond;
+}
+#odd{
+    color:blue;
+}
+/*propertiess can be defined via id*/
+#even{
+    color:green;
+}
+.abc{
+    text-align:center;
+    text-decoration:dotted;
+}
+#dis{
+    background-color: rgb(125, 151, 255);
+}
+.ligma{
+    background-color: greenyellow;
+}
+/* you can seperate multiple call references via comma  */
+.trash{
+    text-align:end;
+}
