@@ -1,0 +1,72 @@
+*{
+    color:black;
+    background-color: beige;
+}
+.connect{
+    text-decoration:none;
+    font-size: larger;
+}
+#div{
+    background-color: aquamarine;
+    height: 40px;
+    width: 100px;
+    border-width:5px;
+    border-style:solid;
+    border-color:blue;
+    padding: 10px;
+    text-align: right;
+
+}
+#he{
+    height: 100px;
+    width: 300px;
+    background-color:azure;
+    text-align: center;
+    text-transform: capitalize;
+    border-style: dashed;
+    border-color: brown;
+    border-width: 1px;
+}
+#anotherdiv{
+    height:8cqmax;
+    width: 80px;
+    text-align: center;
+    background-color:blanchedalmond;
+    border : 2px solid #aa0967;
+    /* all border properties can be written as  */
+    /* border : size fill-type color */
+    border-radius:25% ;
+    /* border radius is used to rounden the edges of border */
+}
+#anotherdiv2{
+    height:40px;
+    width: 180px;
+    text-align: center;
+
+    background-color:blanchedalmond;
+    border : 2px solid #aa0967;
+    border-radius: 10px;
+}
+#circle{
+    background-color: #aa0967;
+    color:white;
+    height: 100px;
+    width: 100px;
+    border:3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px ;
+}
+#pd{
+    color:blanchedalmond;
+    background-color: #aa0967;
+    border:2px SOLID violet;
+    width:fit-content;
+    height:fit-content;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+}

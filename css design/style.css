@@ -18,3 +18,8 @@ button{
 body{
     background-color:#1d9b7c;
 }
+.le{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 900;
+}
