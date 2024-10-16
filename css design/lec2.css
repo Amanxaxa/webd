@@ -69,4 +69,8 @@
     padding-top: 25px;
     padding-bottom: 25px;
     border-radius: 5px;
+    padding: 50px;
+/*  padding: lpx2px3px4px; 
+    padding:1 px 2px 3px 4px;
+    top I right I bottom I left -> clockwise */
 }
